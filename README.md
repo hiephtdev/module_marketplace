@@ -42,7 +42,7 @@
 1. **Clone the project**
 
    ```bash
-   git clone https://github.com/yourusername/module_marketplace.git
+   git clone https://github.com/hiephtdev/module_marketplace.git
    cd module_marketplace
    ```
 
