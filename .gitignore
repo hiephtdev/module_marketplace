@@ -1,0 +1,48 @@
+# Ignore Move CLI build artifacts
+/build/
+/target/
+
+# Ignore Move bytecode files
+**/*.mv
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+*.bak
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor configuration files
+.idea/
+/.vscode/
+/*.iml
+
+# Ignore node_modules if using JavaScript/TypeScript
+node_modules/
+
+# Ignore Aptos CLI generated keys and configurations
+*.key
+*.yaml
+.secrets/
+
+# Ignore coverage reports
+/coverage/
+
+# Ignore script outputs
+/scripts/output/
+
+# Ignore compiled packages
+/compiled_packages/
+
+# Ignore Move prover output
+/storage/
+
+# Ignore user-specific files
+*.env
+.env.local
+.env.*.local
